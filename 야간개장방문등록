@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+h3 {color: green; font-size: 180%;}
+p {color: red;}
+    
+    
+.underline {text-decoration: underline; color:blue;}
+span {font-weight: bold;}
+    
+</style>
+</head>
+
+<body>
+<h3 class="blue">야간개장 방문신청 등록 되었습니다.</h3>
+<p><span>고맙습니다.</span></p>
+    
+    
+<a href="주말야간개장안내.html"> <class style="color: blue">[되돌아가기]</class></a>
+<a href="index.html"> <class style="color: blue">[첫 화면으로]</class></a>
+    
+</body>
+</html>
