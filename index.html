@@ -12,24 +12,24 @@
   font-family: 'Gaegu', cursive;
 }
 
+h3 {
+    font-size: 20px;
+    color: rgb(83, 47, 47);
+    font-weight: bold;
+
+}
 body {
-  font-family: Arial;
   padding: 10px;
   background: hsl(0, 0%, 100%);
 }
 
 .header {
-  text-align: center;
   background: rgb(255, 222, 223);
-}
-
-.header h1 {
-  font-size: 80px;
 }
 
 .topnav {
   overflow: hidden;
-  background-color:rgb(123, 166, 255);
+  background-color:rgb(83, 47, 47);
   border-radius: 10px 10px 10px 10px;
 }
 
@@ -39,12 +39,13 @@ body {
   color: #ffffff;
   text-align: center;
   padding: 14px 16px;
+
   text-decoration: none;
 }
 
 .topnav a:hover {
   background-color: rgb(255, 222, 223);
-  color: hsl(221, 100%, 77%);
+  color: rgb(83, 47, 47);
   border-radius: 10px 10px 10px 10px;
 }
 
@@ -71,7 +72,7 @@ body {
 .card {
   background-color: rgb(224, 224, 224);
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
   border-radius: 10px 10px 10px 10px;
 }
 
@@ -139,12 +140,19 @@ a {text-decoration-line: none;
   display:block
 }
 
+video { max-width: 80%; display: block; margin: 20px auto; }
+   
 </style>
 </head>
 <body>
 
 <div class="header">
- <img src="https://pbs.twimg.com/media/FYCLNhZaUAAkbe6?format=jpg&name=large">
+ <div style="position: relative;">
+    <img src="https://pbs.twimg.com/media/FYCLNhZaUAAkbe6?format=jpg&name=large"></img>
+    <div style="position: absolute; top: 50px; left: 50px;">
+        <a href="https://www.hoseo.ac.kr/Home/Main.mbz"><img src="상단홈페.GIF" style="width: 800px; height: auto; float: left;"></img> 
+    </a></div>
+</div>
 </div>
 
 <div class="topnav">
@@ -155,18 +163,108 @@ a {text-decoration-line: none;
   <a href="월간일정표.html">월간 일정표</a>
   <a href="쇼핑몰.html">쇼핑몰</a>
   <a href="회원가입.html" style="float:right">회원가입</a>
-</div>
+</div><br>
 
 <div class="row">
-  <div class="leftcolumn">
+  <div class="leftcolumn" >
     <div class="card">
-      <div class="fakeimg" style="height:300px;">
+        <style type="text/css" >
+            .tg  {border-collapse:collapse;border-spacing:0;}
+            .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+              overflow:hidden;padding:10px 5px;word-break:normal; font-family: 'Gaegu', cursive;}
+            .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+              font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal; font-family: 'Gaegu', cursive;}
+            .tg .문화{background-color:#ff9f99;border-color:#ffdedf;text-align:center;vertical-align:middle}
+            .tg .독일어{background-color:#ffccc9;border-color:#ffdedf;text-align:center;vertical-align:middle}
+            .tg .흰색{background-color:#ffffff;border-color:#ffdedf;text-align:center;vertical-align:middle}
+            .tg .웹프{background-color:#ffd7d7;border-color:#ffdedf;text-align:center;vertical-align:middle}
+            .tg .공{background-color:#ffffff;border-color:#ffdedf;font-size:100%;text-align:center;vertical-align:middle}
+            .tg .공백{background-color:#ffffff;border-color:#ffdedf;font-weight:bold;text-align:center;vertical-align:middle}
+            .tg .디콘비{background-color:#cbcefb;border-color:#ffdedf;text-align:center;vertical-align:middle}
+            .tg .경정{background-color:#ecf4ff;border-color:#ffdedf;text-align:center;vertical-align:middle}
+            .tg .영어{background-color:#ffffc7;border-color:#ffdedf;text-align:center;vertical-align:middle}
+            </style>
+            <table class="tg" style="margin-left: 100px;">
+            <thead>
+              <tr >
+                <th class="공백"></th>
+                <th class="흰색">MON</th>
+                <th class="흰색">TUE</th>
+                <th class="흰색">WED</th>
+                <th class="흰색">THU</th>
+                <th class="흰색">FRI</th>
+                <th class="흰색">SAT</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="흰색">9:30 ~ 10:20</td>
+                <td class="공백"></td>
+                <td class="흰색"></td>
+                <td class="흰색"></td>
+                <td class="흰색"></td>
+                <td class="흰색"></td>
+                <td class="흰색"></td>
+              </tr>
+              <tr>
+                <td class="흰색">10:30 ~ 11:20</td>
+                <td class="독일어" rowspan="2">독일어</td>
+                <td class="흰색"></td>
+                <td class="흰색"></td>
+                <td class="디콘비">디콘비</td>
+                <td class="웹프" rowspan="2">웹프로그래밍</td>
+                <td class="흰색"></td>
+              </tr>
+              <tr>
+                <td class="흰색">11:30 ~ 12:20</td>
+                <td class="디콘비" rowspan="2">디콘비</td>
+                <td class="경정" rowspan="2">경영정보시스템</td>
+                <td class="영어" rowspan="2">대학영어회화</td>
+                <td class="흰색"></td>
+              </tr>
+              <tr>
+                <td class="흰색">12:30 ~ 1:20</td>
+                <td class="흰색"></td>
+                <td class="흰색"></td>
+                <td class="문화">문화산업이헤</td>
+              </tr>
+              <tr>
+                <td class="흰색">1:30 ~ 2:20</td>
+                <td class="경정">경영정보시스템</td>
+                <td class="문화" rowspan="2">문화산업이해</td>
+                <td class="흰색"></td>
+                <td class="흰색"></td>
+                <td class="흰색"></td>
+                <td class="흰색"></td>
+              </tr>
+              <tr>
+                <td class="흰색">2:30 ~ 3:20</td>
+                <td class="흰색"></td>
+                <td class="흰색"></td>
+                <td class="흰색"></td>
+                <td class="흰색"></td>
+                <td class="흰색"></td>
+              </tr>
+              <tr>
+                <td class="흰색">3:30 ~ 4:20</td>
+                <td class="흰색"></td>
+                <td class="흰색"></td>
+                <td class="흰색"></td>
+                <td class="흰색"></td>
+                <td class="흰색"></td>
+                <td class="웹프">웹프로그래밍</td>
+              </tr>
+            </tbody>
+            </table>
+      <div class="fakeimg">
+        
     </div>
   </div>
     <div class="card">
-      <h2>두번째</h2>
-      <h5>설명</h5>
-      <div class="fakeimg" style="height:200px;">사진</div>
+        <video controls poster="https://i.ytimg.com/vi/dIt_N7yNTgk/maxresdefault.jpg">
+            <source src="먼작귀.mp4" type="video/mp4">
+          </video>
+      <div class="fakeimg" style="width: 200; height: auto;"></div>
      </div>
   </div>
 
@@ -174,23 +272,33 @@ a {text-decoration-line: none;
     <div class="card">
       <div class="fakeimg" style="height:200px;">
         <div class="a">
-        <img src="img/치이배경.jpeg" style="width: 290px; height: 200px; 
+        <img src="https://love-character-m.net/wp-content/uploads/2020/12/20201208_230640.jpg" style="width: 290px; height: 200px; 
         margin:0px;">
       </div></div>
-      
+  <audio src="배경음악.mp3" controls autoplay style="margin-top: 20px;"></audio>
+
     </div>
     <div class="card">
-      <h3>사진넣기</h3>
-      <div class="fakeimg"><p><img src="img/하치얼굴.jpeg" width="250px" height="250px"></p></div>
-      <div class="fakeimg"><p>다음사진</p></div>
-      <div class="fakeimg"><p>다음사진</p></div>
+      <h3>To do list !</h3>
+<label>
+  <input type="checkbox" name="option1" value="value1"> 과제하기<br>
+</label>
+<label>
+  <input type="checkbox" name="option1" value="value1" checked> 운동하기<br>
+</label>
+<label>
+  <input type="checkbox" name="option1" value="value1" checked> 영화보기<br>
+</label>
+<input type="checkbox" name="option1" value="value1" checked style="margin-bottom: 170px;"> 음악듣기<br>
+</label>
+      <div class="fakeimg"><p><img src="http://file3.instiz.net/data/cached_img/upload/2022/12/08/4/074de38c0e909bf9410fa51dd4cb4ad8.gif" width="300px" height="170px"></p></div>
     </div>
   </div>
 </div>
 
 <div class="footer">
 <a href='https://www.hoseo.ac.kr/Home/Main.mbz' target='_blank'>HOSEO</a> |
-<a href="https://github.com/" target="_blank">GITHUB</a>
+<a href="https://github.com/" target="_blank">GITHUB ( click! )</a>
  <p>
     <span>페이지 주인 : 서유경</span><br/>
     <span>이메일 : yukung2016@naver.com</span><br/>
